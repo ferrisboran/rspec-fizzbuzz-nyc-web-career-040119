@@ -3,11 +3,11 @@
 
 def fizzbuzz(int)
   case int
-  when int % 3 == 0
+  when int % 3 === 0
     return "Fizz"
-  when int % 5 == 0
+  when int % 5 === 0
     return "Buzz"
-  when int % 3 == 0 && int % 5 == 0
+  when int % 3 === 0 && int % 5 === 0
     return "FizzBuzz"
   else
     return nil
